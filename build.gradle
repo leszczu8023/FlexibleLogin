@@ -44,19 +44,6 @@ repositories {
     }
 }
 
-sourceSets {
-    main {
-        java {
-            srcDirs = ["src/main"]
-        }
-    }
-    test {
-        java {
-            srcDirs = ["src/test"]
-        }
-    }
-}
-
 dependencies {
     compile "org.spongepowered:spongeapi:7.1.0-SNAPSHOT"
 	compile "de.svenkubiak:jBCrypt:0.4.1"
